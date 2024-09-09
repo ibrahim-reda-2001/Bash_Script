@@ -1,0 +1,17 @@
+#! /bin/bash 
+#author : ibrahim
+#date : 9/5/2024
+#desc : for loop for create users 
+#modDate: 9/8/2024
+echo 
+echo Enter the number of users 
+read users 
+echo $users
+for i in  $(seq 1 $users)
+do 
+echo enter the name of user $i
+read user_name 
+sudo useradd $user_name
+sudo  passwd $user_name
+done 
+ 

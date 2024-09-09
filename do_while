@@ -1,0 +1,12 @@
+#! /bin/bash 
+#author:
+#date:
+#desc
+#modDate:
+c=1
+while [ $c -le 5 ]
+do
+ echo "Welcone $c times"
+echo "the number  (( c++ )) increases " 
+done
+

@@ -1,0 +1,18 @@
+#!/usr/bin/expect
+
+# Set the root password
+set   password "172001"
+
+# Spawn the 'su' command to switch to root
+spawn su -
+
+# Expect the password prompt and send the password
+expect "Password:"
+send "$password\r"
+
+# After becoming root, send commands
+
+
+# Interact with the root shell
+interact
+

@@ -1,0 +1,14 @@
+#! /bin/bash 
+#author 
+#date 
+#desc : how to check exist 
+#modified date 
+clear 
+if [ -e /home/lab/scriptsis ]
+then 
+echo file exist 
+else 
+echo file not exist 
+fi 
+
+

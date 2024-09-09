@@ -1,0 +1,26 @@
+#! /bin/bash 
+#author : ibrahim 
+#date : 9/8/2024
+#description: define variable 
+#modified date : 9/8/2024
+echo
+echo this is bash script 
+echo
+p=pwd 
+l=ls 
+wi=whoami
+d=date 
+c=cal
+echo 
+echo run variables 
+
+echo 
+$p
+$l
+$wi
+$d
+$c
+
+
+echo finish of script 
+
