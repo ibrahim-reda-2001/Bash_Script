@@ -1,0 +1,12 @@
+#! /bin/bash 
+#author : ibrahim 
+#date : 9/8/2024
+#desc : if else 
+#modified date : 9/8/2024
+count=10
+if  [ $count -eq 100 ] 
+then 
+	echo count equal 100
+else
+	echo count not equal 100
+fi 
