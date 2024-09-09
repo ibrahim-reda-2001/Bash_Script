@@ -1,9 +1,0 @@
-#! /bin/bash
-#Author ibrahim
-#Date : 9/8/2024
-#description : this script print hello world on screen 
-#Date Modified : 9/8/2024
-
-
-
-echo "hello world "
