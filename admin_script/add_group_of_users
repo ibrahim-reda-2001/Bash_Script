@@ -1,0 +1,28 @@
+#! /bin/bash
+#Author : Ibrahim 
+#Date:12/9/2024
+#Desc:script to add many users and set passwords 
+#modiDate:12/9/2024
+echo " Hello   $USER   "
+echo Enter the number of users 
+read users 
+for user in  $(seq 1 $users) 
+do
+echo Enter the User$user name : 
+read username
+grep -w "$username" /etc/passwd
+if [ $? -eq 0 ];then
+echo "this $username is exist alredy"
+echo "Enter another user name" 
+echo
+exit 0
+fi
+sudo useradd $username
+sudo passwd  $username
+if [ $? -eq 0 ]
+then
+	echo "/********** sucessfull add $username ******************/"
+else
+	echo "/*************** erorr ******************/"
+fi
+done
