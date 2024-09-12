@@ -1,0 +1,15 @@
+#! /bin/bash
+#Author: ibrahim
+#Date:12/9/2024
+#Desc : show new logs of error
+#modfiedDate : 12/9/2024
+echo 
+#this command show any log after write it (not before)
+sudo  tail -fn0 /var/log/messages | while read line
+do 
+echo $line | egrep -i "refused|error|invalid|lost|shut|down|offline"
+	if [ $? -eq 0 ] ; then
+	echo $line >> /tmp/filtered_messages
+	fi
+done
+

@@ -1,0 +1,14 @@
+#! /bin/bash
+#Author: ibrahim
+#Date:12/9/2024
+#Desc : this scrip will send email to admin
+#modfiedDate : 12/9/2024
+IT="ibrahimworkacount@gmail.com"
+if [ -s /tmp/filtered_messages ]; then
+        cat /tmp/filtered_messages | sort | uniq | mail -s "syslog messages " $IT
+        rm /tmp/filtered_messages
+        else
+		exit 1 
+
+fi
+

@@ -1,0 +1,57 @@
+#! /bin/bash
+#Autor : ibrahim 
+#date : 10/982024
+#Desc : how to backup using tar 
+#modDate : 10/9/2024
+##############################################
+#this using gzip file
+sudo tar cpzf  backup1.tar.gz   /etc  
+echo process 1 is done
+#this using bzip file
+sudo tar cpjf  backup2.tar.bz2   /etc  
+echo process 2 is done
+#this using xz file 
+tar cpJf  backup3.tar.xz   /etc     
+echo process 3 is done 
+#we want to chech if compressed and archieve is true 
+if [ $? -eq  0 ] ; then 
+echo sucsseful operation
+echo
+else
+echo "error and check code "
+exit
+fi
+scp backup1.tar.gz root@192.168.109.134:~/backup
+if [ $? -eq  0 ] ; then
+echo sucsseful copy 1
+echo
+else
+echo "error in  copy 1 "
+exit
+fi
+scp  backup2.tar.bz2  root@192.168.109.134:~/backup
+if [ $? -eq  0 ] ; then
+echo sucsseful copy 2
+echo
+else
+echo "error in  copy 2 "
+exit
+fi
+scp backup3.tar.xz  root@192.168.109.134:~/backup
+if [ $? -eq  0 ] ; then
+echo sucsseful copy 3
+echo
+else
+echo "error in  copy 3 "
+exit
+fi
+rm -rf *.gz *.xz *.bz2
+if [ $? -eq  0 ] ; then
+echo deleted sucessfully
+echo
+else
+echo "error in  deleting "
+exit
+fi
+
+

@@ -1,0 +1,7 @@
+#! /bin/bash
+#Author : ibrahim
+#Date : 12/9/2024
+#Desc : list all users login today
+#ModDate : 12/9/2024
+users=$(date | awk '{print $1,$2,$3}')
+last | grep "$users"

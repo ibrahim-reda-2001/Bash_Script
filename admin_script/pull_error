@@ -1,0 +1,18 @@
+#! /bin/bash
+#Author : ibrahim
+#date : 9/9/2024
+#Desc : this script pull error from /var/log/message	
+#modDate: 9/9/2024
+echo
+touch error.txt $PWD 
+#grep error warn  fail
+sudo grep -i error  /var/log/messages > error.txt 
+if [ -s error.txt ] 
+then
+
+	echo  error file is done 
+fi
+echo
+#this command to extract error in 9 september 
+#cat error.txt  | grep -i "Sep  9"
+

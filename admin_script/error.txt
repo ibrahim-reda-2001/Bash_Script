@@ -1,0 +1,95 @@
+Sep  8 14:02:41 localhost alsactl[798]: alsa-lib main.c:1554:(snd_use_case_mgr_open) error: failed to import hw:0 use case configuration -2
+Sep  8 14:02:41 localhost udisksd[772]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': ATA command failed: error=0x01 count=0x02 status=0x50 (g-io-error-quark, 0)
+Sep  8 14:02:49 localhost wireplumber[1682]: GetManagedObjects() failed: org.freedesktop.DBus.Error.NameHasNoOwner
+Sep  8 14:02:52 localhost gnome-shell[1206]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Sep  8 14:02:54 localhost org.gnome.Shell.desktop[1973]: Errors from xkbcomp are not fatal to the X server
+Sep  8 14:03:22 localhost gnome-session[2080]: gnome-session-binary[2080]: GnomeDesktop-WARNING: Could not create transient scope for PID 2095: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2095 does not exist.
+Sep  8 14:03:22 localhost gnome-session-binary[2080]: GnomeDesktop-WARNING: Could not create transient scope for PID 2095: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2095 does not exist.
+Sep  8 14:03:24 localhost wireplumber[2170]: GetManagedObjects() failed: org.freedesktop.DBus.Error.NameHasNoOwner
+Sep  8 14:03:26 localhost gnome-session[2080]: gnome-session-binary[2080]: GnomeDesktop-WARNING: Could not create transient scope for PID 2287: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2287 does not exist.
+Sep  8 14:03:26 localhost gnome-session-binary[2080]: GnomeDesktop-WARNING: Could not create transient scope for PID 2287: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2287 does not exist.
+Sep  8 14:03:26 localhost gnome-session[2080]: gnome-session-binary[2080]: GnomeDesktop-WARNING: Could not create transient scope for PID 2305: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2305 does not exist.
+Sep  8 14:03:26 localhost gnome-session-binary[2080]: GnomeDesktop-WARNING: Could not create transient scope for PID 2305: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2305 does not exist.
+Sep  8 14:03:26 localhost gnome-session[2080]: gnome-session-binary[2080]: GnomeDesktop-WARNING: Could not create transient scope for PID 2311: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2311 does not exist.
+Sep  8 14:03:26 localhost gnome-session-binary[2080]: GnomeDesktop-WARNING: Could not create transient scope for PID 2311: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2311 does not exist.
+Sep  8 14:03:26 localhost udisksd[772]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': ATA command failed: error=0x01 count=0x02 status=0x50 (g-io-error-quark, 0)
+Sep  8 14:03:27 localhost gnome-shell[2097]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Sep  8 14:03:27 localhost gsd-usb-protect[2329]: Failed to fetch USBGuard parameters: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+Sep  8 14:03:31 localhost gnome-shell[2601]: Errors from xkbcomp are not fatal to the X server
+Sep  8 14:03:53 localhost gsd-media-keys[2300]: Failed to create proxy for screencast: Error calling StartServiceByName for org.gnome.Shell.Screencast: Timeout was reached
+Sep  8 14:23:56 localhost alsactl[793]: alsa-lib main.c:1554:(snd_use_case_mgr_open) error: failed to import hw:0 use case configuration -2
+Sep  8 14:23:56 localhost udisksd[771]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': ATA command failed: error=0x01 count=0x02 status=0x50 (g-io-error-quark, 0)
+Sep  8 14:24:02 localhost wireplumber[1755]: GetManagedObjects() failed: org.freedesktop.DBus.Error.NameHasNoOwner
+Sep  8 14:24:05 localhost gnome-shell[1084]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Sep  8 14:24:07 localhost org.gnome.Shell.desktop[2105]: Errors from xkbcomp are not fatal to the X server
+Sep  8 15:13:45 localhost dnf[2378]: Errors during downloading metadata for repository 'local1':
+Sep  8 15:13:45 localhost dnf[2378]:  - Curl error (37): Couldn't read a file:// file for file:///run/media/lab/CentOS-Stream-9-BaseOS-x86_64/AppStream/repodata/repomd.xml [Couldn't open file /run/media/lab/CentOS-Stream-9-BaseOS-x86_64/AppStream/repodata/repomd.xml]
+Sep  8 15:13:45 localhost dnf[2378]: Error: Failed to download metadata for repo 'local1': Cannot download repomd.xml: Curl error (37): Couldn't read a file:// file for file:///run/media/lab/CentOS-Stream-9-BaseOS-x86_64/AppStream/repodata/repomd.xml [Couldn't open file /run/media/lab/CentOS-Stream-9-BaseOS-x86_64/AppStream/repodata/repomd.xml]
+Sep  8 15:31:09 localhost udisksd[771]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': ATA command failed: error=0x01 count=0x02 status=0x50 (g-io-error-quark, 0)
+Sep  8 15:31:09 localhost udisksd[771]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': ATA command failed: error=0x01 count=0x02 status=0x50 (g-io-error-quark, 0)
+Sep  8 15:31:09 localhost udisksd[771]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': ATA command failed: error=0x01 count=0x02 status=0x50 (g-io-error-quark, 0)
+Sep  8 15:31:15 localhost udisksd[771]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': ATA command failed: error=0x01 count=0x02 status=0x50 (g-io-error-quark, 0)
+Sep  8 15:32:34 localhost wireplumber[3276]: GetManagedObjects() failed: org.freedesktop.DBus.Error.NameHasNoOwner
+Sep  8 15:32:36 localhost gnome-session[3178]: gnome-session-binary[3178]: GnomeDesktop-WARNING: Could not create transient scope for PID 3376: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 3376 does not exist.
+Sep  8 15:32:36 localhost gnome-session-binary[3178]: GnomeDesktop-WARNING: Could not create transient scope for PID 3376: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 3376 does not exist.
+Sep  8 15:32:36 localhost gnome-session[3178]: gnome-session-binary[3178]: GnomeDesktop-WARNING: Could not create transient scope for PID 3393: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 3393 does not exist.
+Sep  8 15:32:36 localhost gnome-session-binary[3178]: GnomeDesktop-WARNING: Could not create transient scope for PID 3393: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 3393 does not exist.
+Sep  8 15:32:36 localhost gnome-session[3178]: gnome-session-binary[3178]: GnomeDesktop-WARNING: Could not create transient scope for PID 3395: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 3395 does not exist.
+Sep  8 15:32:36 localhost gnome-session-binary[3178]: GnomeDesktop-WARNING: Could not create transient scope for PID 3395: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 3395 does not exist.
+Sep  8 15:32:36 localhost udisksd[771]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': ATA command failed: error=0x01 count=0x02 status=0x50 (g-io-error-quark, 0)
+Sep  8 15:32:37 localhost gnome-shell[3196]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Sep  8 15:32:37 localhost gsd-usb-protect[3424]: Failed to fetch USBGuard parameters: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+Sep  8 15:32:42 localhost gnome-shell[3679]: Errors from xkbcomp are not fatal to the X server
+Sep  8 15:33:14 localhost alsactl[793]: alsa-lib main.c:1554:(snd_use_case_mgr_open) error: failed to import hw:0 use case configuration -2
+Sep  8 15:33:14 localhost udisksd[771]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': ATA command failed: error=0x01 count=0x02 status=0x50 (g-io-error-quark, 0)
+Sep  8 15:33:20 localhost wireplumber[1765]: GetManagedObjects() failed: org.freedesktop.DBus.Error.NameHasNoOwner
+Sep  8 15:33:24 localhost gsd-sharing[1838]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep  8 15:33:24 localhost gsd-sharing[1838]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep  8 15:33:24 localhost gsd-sharing[1838]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep  8 15:33:25 localhost gnome-shell[1083]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Sep  8 15:33:27 localhost org.gnome.Shell.desktop[2106]: Errors from xkbcomp are not fatal to the X server
+Sep  8 15:34:01 localhost wireplumber[2320]: GetManagedObjects() failed: org.freedesktop.DBus.Error.NameHasNoOwner
+Sep  8 15:34:02 localhost gnome-session[2224]: gnome-session-binary[2224]: GnomeDesktop-WARNING: Could not create transient scope for PID 2427: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2427 does not exist.
+Sep  8 15:34:02 localhost gnome-session-binary[2224]: GnomeDesktop-WARNING: Could not create transient scope for PID 2427: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2427 does not exist.
+Sep  8 15:34:03 localhost gnome-session[2224]: gnome-session-binary[2224]: GnomeDesktop-WARNING: Could not create transient scope for PID 2450: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2450 does not exist.
+Sep  8 15:34:03 localhost gnome-session-binary[2224]: GnomeDesktop-WARNING: Could not create transient scope for PID 2450: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2450 does not exist.
+Sep  8 15:34:03 localhost gnome-session[2224]: gnome-session-binary[2224]: GnomeDesktop-WARNING: Could not create transient scope for PID 2457: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2457 does not exist.
+Sep  8 15:34:03 localhost gnome-session-binary[2224]: GnomeDesktop-WARNING: Could not create transient scope for PID 2457: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2457 does not exist.
+Sep  8 15:34:03 localhost udisksd[771]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': ATA command failed: error=0x01 count=0x02 status=0x50 (g-io-error-quark, 0)
+Sep  8 15:34:03 localhost gnome-shell[2241]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Sep  8 15:34:03 localhost gsd-usb-protect[2465]: Failed to fetch USBGuard parameters: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+Sep  8 15:34:08 localhost gnome-shell[2733]: Errors from xkbcomp are not fatal to the X server
+Sep  8 15:34:08 localhost gsd-rfkill[1881]: Error releasing name org.gnome.SettingsDaemon.Rfkill: The connection is closed
+Sep  8 15:34:08 localhost gsd-screensaver[1892]: Error releasing name org.freedesktop.ScreenSaver: The connection is closed
+Sep  8 18:04:55 localhost cupsd[897]: REQUEST localhost - - "POST / HTTP/1.1" 200 182 Renew-Subscription client-error-not-found
+Sep  8 19:03:15 localhost cupsd[897]: REQUEST localhost - - "POST / HTTP/1.1" 200 182 Renew-Subscription client-error-not-found
+Sep  8 20:01:35 localhost cupsd[897]: REQUEST localhost - - "POST / HTTP/1.1" 200 182 Renew-Subscription client-error-not-found
+Sep  8 21:25:18 localhost cupsd[897]: REQUEST localhost - - "POST / HTTP/1.1" 200 182 Renew-Subscription client-error-not-found
+Sep  8 22:23:38 localhost cupsd[897]: REQUEST localhost - - "POST / HTTP/1.1" 200 182 Renew-Subscription client-error-not-found
+Sep  8 23:18:28 localhost wireplumber[5711]: GetManagedObjects() failed: org.freedesktop.DBus.Error.NameHasNoOwner
+Sep  8 23:18:30 localhost gsd-sharing[5765]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep  8 23:18:30 localhost gsd-sharing[5765]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep  8 23:18:30 localhost gsd-sharing[5765]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep  8 23:18:30 localhost gnome-shell[5670]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Sep  8 23:18:32 localhost org.gnome.Shell.desktop[5990]: Errors from xkbcomp are not fatal to the X server
+Sep  8 23:18:42 localhost gnome-shell[6057]: Errors from xkbcomp are not fatal to the X server
+Sep  8 23:21:58 localhost cupsd[897]: REQUEST localhost - - "POST / HTTP/1.1" 200 182 Renew-Subscription client-error-not-found
+Sep  9 13:47:20 localhost alsactl[802]: alsa-lib main.c:1554:(snd_use_case_mgr_open) error: failed to import hw:0 use case configuration -2
+Sep  9 13:47:20 localhost udisksd[772]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': ATA command failed: error=0x01 count=0x02 status=0x50 (g-io-error-quark, 0)
+Sep  9 13:47:28 localhost wireplumber[1673]: GetManagedObjects() failed: org.freedesktop.DBus.Error.NameHasNoOwner
+Sep  9 13:47:30 localhost gsd-sharing[1726]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep  9 13:47:30 localhost gsd-sharing[1726]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep  9 13:47:30 localhost gsd-sharing[1726]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep  9 13:47:30 localhost gnome-shell[1189]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Sep  9 13:47:30 localhost org.gnome.Shell.desktop[1962]: Errors from xkbcomp are not fatal to the X server
+Sep  9 13:48:46 localhost wireplumber[2170]: GetManagedObjects() failed: org.freedesktop.DBus.Error.NameHasNoOwner
+Sep  9 13:48:48 localhost gnome-session[2082]: gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2290: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2290 does not exist.
+Sep  9 13:48:48 localhost gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2290: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2290 does not exist.
+Sep  9 13:48:48 localhost gnome-session[2082]: gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2308: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2308 does not exist.
+Sep  9 13:48:48 localhost gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2308: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2308 does not exist.
+Sep  9 13:48:48 localhost gnome-session[2082]: gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2318: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2318 does not exist.
+Sep  9 13:48:48 localhost gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2318: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2318 does not exist.
+Sep  9 13:48:48 localhost udisksd[772]: Error probing device: Error sending ATA command IDENTIFY PACKET DEVICE to '/dev/sr0': ATA command failed: error=0x01 count=0x02 status=0x50 (g-io-error-quark, 0)
+Sep  9 13:48:49 localhost gnome-shell[2099]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Sep  9 13:48:49 localhost gsd-usb-protect[2331]: Failed to fetch USBGuard parameters: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+Sep  9 13:48:53 localhost gnome-shell[2599]: Errors from xkbcomp are not fatal to the X server

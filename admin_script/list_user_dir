@@ -1,0 +1,17 @@
+#! /bin/bash
+#Author:ibrahim
+#Date : 12/9/2024
+#Desc:list user directory
+#ModDate:12/9/2024
+cd /home
+#make variable check if count line or no 
+for Dir in *
+do
+#grep -c "/home/$Dir" /etc/passwd --> this command count line contain this keyword
+check=$(grep -c "/home/$Dir" /etc/passwd )
+if [ $check -ge 1 ] ;then
+echo "$Dir is assigned to user "
+else 
+echo "$Dir not is assigned to user "
+fi
+done

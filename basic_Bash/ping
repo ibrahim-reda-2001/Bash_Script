@@ -1,0 +1,17 @@
+#! /bin/bash
+#author : ibrahim 
+#Date : 9/9/2024
+#Desc : how to ping device
+#modDate: 9/9/2024
+echo input the IP :
+read IP
+echo Enter number of packet to send : 
+read count
+
+ping -c$count $IP &> /dev/null
+if [ $? -eq 0 ] ; then
+echo  $IP is ok
+else 
+echo $IP is  Not ok
+fi
+ 
