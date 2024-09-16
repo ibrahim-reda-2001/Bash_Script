@@ -1,0 +1,8 @@
+#! /bin/bash
+#Author : ibrahim
+#Date : 14/9/2024
+#Desc : Database using BashScript
+#ModDate:14/9/2024
+Dir=ITI_DataBaseDir
+sudo mkdir -p  $Dir
+
