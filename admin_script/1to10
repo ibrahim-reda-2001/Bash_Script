@@ -5,6 +5,6 @@
 #moddate : 10/9/2024
 for i in {1..10}
 do
-echo $i
+echo "$i"
 done
 
